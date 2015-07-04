@@ -799,6 +799,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
         private final LayoutInflater mFactory;
         private final String[] mShortWeekDayStrings;
         private final String[] mLongWeekDayStrings;
+        private final int mBackgroundColorExpanded;
         private final int mColorLit;
         private final int mColorDim;
         private final Typeface mRobotoNormal;
@@ -883,6 +884,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
             Resources res = mContext.getResources();
             mColorLit = res.getColor(R.color.clock_white);
             mColorDim = res.getColor(R.color.clock_gray);
+            mBackgroundColorExpanded = res.getColor(R.color.expanded_background_color);
 
             mRobotoNormal = Typeface.create("sans-serif", Typeface.NORMAL);
 
@@ -1005,6 +1007,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
 
             if (mSelectedAlarms.contains(itemHolder.alarm.id)) {
                 setAlarmItemBackgroundAndElevation(itemHolder.alarmItem, true /* expanded */);
+                itemHolder.alarmItem.setBackgroundColor(mBackgroundColorExpanded);
                 setDigitalTimeAlpha(itemHolder, true);
                 itemHolder.onoff.setEnabled(false);
             } else {
@@ -1507,6 +1510,7 @@ public class AlarmClockFragment extends DeskClockFragment implements
 
             // Set the expand area to visible so we can measure the height to animate to.
             setAlarmItemBackgroundAndElevation(itemHolder.alarmItem, true /* expanded */);
+            itemHolder.alarmItem.setBackgroundColor(mBackgroundColorExpanded);
             itemHolder.expandArea.setVisibility(View.VISIBLE);
             itemHolder.delete.setVisibility(View.VISIBLE);
             // Show digital time in full-opaque when expanded, even when alarm is disabled
