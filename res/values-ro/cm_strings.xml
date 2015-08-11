@@ -35,6 +35,7 @@
   <string name="cities_delete_city_title">Șterge orașul</string>
   <string name="cities_delete_city_msg">Doriți să ștergeți <xliff:g id="city">%s</xliff:g>?</string>
   <string name="cities_delete_city_failed">Nu pot șterge orașul</string>
+  <string name="volume_buttons_summary">Apăsarea butoanelor de volum va <xliff:g id="action">%s </xliff:g></string>
   <string name="flip_action_title">Acțiune de rotire</string>
   <string name="flip_action_summary" product="tablet">Rotirea tabletei în jos va <xliff:g id="action">%s</xliff:g></string>
   <string name="flip_action_summary" product="default">Rotirea telefonului în jos va <xliff:g id="action">%s</xliff:g></string>
