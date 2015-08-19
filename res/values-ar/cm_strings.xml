@@ -50,11 +50,11 @@
   <string name="alarm_type_playlist">قائمة التشغيل</string>
   <string name="alarm_type_random">عشوائياً</string>
   <string name="warn_silent_alarm_title">صوت التنبيه على الصامت</string>
-  <string name="alarm_select">حدد المنبه</string>
+  <string name="alarm_select">تحديد المنبه</string>
   <string name="alarm_select_ringtone">نغمة الرنين</string>
   <string name="alarm_select_external">موسيقى</string>
   <string name="ringtone_default">النغمة الافتراضية</string>
-  <string name="take_persistent_grant_uri_permission_failed_msg">فشل أخذ إذن دائم للنغمة</string>
+  <string name="take_persistent_grant_uri_permission_failed_msg">فشل أخذ إذن دائم للنغمة </string>
   <string name="menu_item_widget_settings">إعدادات التطبيق المصغر</string>
   <string name="activity_not_found">لم يتم العثور على النشاط!</string>
 </resources>
