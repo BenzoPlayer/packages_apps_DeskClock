@@ -57,4 +57,5 @@
   <string name="take_persistent_grant_uri_permission_failed_msg">ರಿಂಗ್‍ಟೋನ್‍ಗಾಗಿ ನಿರಂತರ ಒಪ್ಪಿಗೆ ಅನುಮತಿಯನ್ನು ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ</string>
   <string name="menu_item_widget_settings">ವಿಜೆಟ್ ಸೆಟ್ಟಿಂಗ್ಸ್</string>
   <string name="activity_not_found">ಚಟುವಟಿಕೆ ಪತ್ತೆಯಾಗಲಿಲ್ಲ!</string>
+  <string name="alarm_modification_service_desc">ತೃತೀಯ ಪಕ್ಷೀಯಗಳಿಗೆ ಅಲಾರಂಗಳನ್ನು ಬದಲಿಸುವ ಸಾಮಾರ್ಥ್ಯವನ್ನು ಅನುಮತಿಸುವ ಒಂದು ಸೇವೆ.</string>
 </resources>
