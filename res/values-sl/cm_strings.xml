@@ -25,7 +25,7 @@
   <string name="cities_add_city_title">Dodaj mesto</string>
   <string name="cities_add_city_city">Mesto:</string>
   <string name="cities_add_city_timezone">Časovni pas:</string>
-  <string name="cities_add_city_gps_cd">Tapnite za lokalizacijo vašega trenutnega mesta</string>
+  <string name="cities_add_city_gps_cd">Kliknite za lokalizacijo vašega trenutnega mesta</string>
   <string name="cities_add_loading">Nalaganje \u2026</string>
   <string name="cities_add_searching">Iskanje \u2026</string>
   <string name="cities_add_gps_no_results">Poizvedba GPS ni vrnila nobenega rezultata za lokacijo</string>
@@ -35,16 +35,16 @@
   <string name="cities_delete_city_title">Izbriši mesto</string>
   <string name="cities_delete_city_msg">Ali želite izbrisati <xliff:g id="city">%s</xliff:g>?</string>
   <string name="cities_delete_city_failed">Mesta ni mogoče izbrisati</string>
-  <string name="volume_buttons_summary">Pritisk na gumba za glasnost bo <xliff:g id="action">%s</xliff:g></string>
+  <string name="volume_buttons_summary">Pritisk na gumba za glasnost <xliff:g id="action">%s</xliff:g></string>
   <string name="flip_action_title">Dejanje obračanja</string>
-  <string name="flip_action_summary" product="tablet">Obračanje tablice navzdol bo <xliff:g id="action">%s</xliff:g></string>
-  <string name="flip_action_summary" product="default">Obračanje telefona navzdol bo <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary" product="tablet">Obračanje tablice navzdol <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary" product="default">Obračanje telefona navzdol <xliff:g id="action">%s</xliff:g></string>
   <string name="shake_action_title">Dejanje tresenja</string>
-  <string name="shake_action_summary" product="tablet">Tresenje tablice bo <xliff:g id="action">%s</xliff:g></string>
-  <string name="shake_action_summary" product="default">Tresenje telefona bo <xliff:g id="action">%s</xliff:g></string>
-  <string name="action_summary_snooze">dalo budilko v dremež</string>
-  <string name="action_summary_dismiss">opustilo budilko</string>
-  <string name="action_summary_do_nothing">naredilo ničesar</string>
+  <string name="shake_action_summary" product="tablet">Tresenje tablice <xliff:g id="action">%s</xliff:g></string>
+  <string name="shake_action_summary" product="default">Tresenje telefona <xliff:g id="action">%s</xliff:g></string>
+  <string name="action_summary_snooze">bo dalo budilko v dremež</string>
+  <string name="action_summary_dismiss">bo opustilo budilko</string>
+  <string name="action_summary_do_nothing">ne bo naredilo ničesar</string>
   <string name="alarm_picker_title">Izberite vrsto budilke</string>
   <string name="alarm_type_ringtone">Melodija zvonjenja</string>
   <string name="alarm_type_playlist">Seznam predvajanja</string>
@@ -57,11 +57,5 @@
   <string name="take_persistent_grant_uri_permission_failed_msg">Privzemanje vztrajnega dovoljenja za melodijo zvonjenja je spodletelo</string>
   <string name="menu_item_widget_settings">Nastavitve gradnika</string>
   <string name="activity_not_found">Dejavnost ni bila najdena!</string>
-  <string name="permlab_write_alarms">neposredno spreminjanje budilk</string>
-  <string name="permdesc_write_alarms">Omogoča programu dodajanje, spreminjanje in brisanje vseh vaših budilk.</string>
-  <string name="permlab_manage_alarms">preklop načrtovanih budilk</string>
-  <string name="permdesc_manage_alarms">Omogoča programu vklop in izklop vaših načrtovanih budilk.</string>
-  <string name="permlab_read_alarms">dostop do načrtovanih budilk</string>
-  <string name="permdesc_read_alarms">Omogoča programu branje vaših načrtovanih budilk.</string>
   <string name="alarm_modification_service_desc">Storitev, ki tretjim osebam omogoča upravljanje z budilkami.</string>
 </resources>
