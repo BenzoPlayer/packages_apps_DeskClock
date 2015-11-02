@@ -18,6 +18,8 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 
+LOCAL_PROGUARD_FLAG_FILES := proguard.flags
+
 include $(BUILD_PACKAGE)
 
 # Use the following include to make our test apk.

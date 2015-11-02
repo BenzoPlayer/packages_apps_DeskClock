@@ -1,3 +1,4 @@
+-keep class android.support.v7.widget.SearchView { *; }
 -keepclassmembers class com.android.deskclock.DeskClock {
   *** clockButtonsOnClick(...);
 }
