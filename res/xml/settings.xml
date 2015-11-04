@@ -22,7 +22,7 @@
             android:entryValues="@array/clock_style_values"
             android:key="clock_style"
             android:title="@string/clock_style" />
-        <CheckBoxPreference
+        <SwitchPreference
             android:defaultValue="true"
             android:key="automatic_home_clock"
             android:summary="@string/automatic_home_clock_summary"
@@ -85,7 +85,7 @@
     <PreferenceCategory
         android:title="@string/fullscreen_alarm_settings"
         android:key="fullscreen_alarm_settings">
-        <CheckBoxPreference
+        <SwitchPreference
             android:defaultValue="true"
             android:key="keep_screen_on"
             android:summary="@string/keep_screen_on_summary"
@@ -113,7 +113,7 @@
             android:title="@string/shake_action_title" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/timer_settings" >
-        <CheckBoxPreference
+        <SwitchPreference
             android:defaultValue="false"
             android:key="timer_alarm_custom"
             android:summary="@string/timer_alarm_custom_summary"

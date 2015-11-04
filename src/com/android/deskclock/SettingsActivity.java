@@ -31,6 +31,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.preference.SwitchPreference;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
@@ -177,7 +178,7 @@ public class SettingsActivity extends PreferenceActivity
             listPref.setSummary(listPref.getEntries()[idx]);
             notifyHomeTimeZoneChanged();
         } else if (KEY_AUTO_HOME_CLOCK.equals(pref.getKey())) {
-            boolean state =((CheckBoxPreference) pref).isChecked();
+            boolean state =((SwitchPreference) pref).isChecked();
             Preference homeTimeZone = findPreference(KEY_HOME_TZ);
             homeTimeZone.setEnabled(!state);
             notifyHomeTimeZoneChanged();
@@ -249,7 +250,7 @@ public class SettingsActivity extends PreferenceActivity
         listPref.setOnPreferenceChangeListener(this);
 
         Preference pref = findPreference(KEY_AUTO_HOME_CLOCK);
-        boolean state =((CheckBoxPreference) pref).isChecked();
+        boolean state =((SwitchPreference) pref).isChecked();
         pref.setOnPreferenceChangeListener(this);
 
         listPref = (ListPreference)findPreference(KEY_HOME_TZ);
@@ -295,7 +296,7 @@ public class SettingsActivity extends PreferenceActivity
         listPref.setSummary(listPref.getEntry());
         listPref.setOnPreferenceChangeListener(this);
 
-        CheckBoxPreference fullscreenAlarm = (CheckBoxPreference) findPreference(KEY_FULLSCREEN_ALARM);
+        SwitchPreference fullscreenAlarm = (SwitchPreference) findPreference(KEY_FULLSCREEN_ALARM);
         fullscreenAlarm.setChecked(Settings.System.getInt(this.getContentResolver(),
 	            Settings.System.SHOW_ALARM_FULLSCREEN, 0) == 1);
         fullscreenAlarm.setOnPreferenceChangeListener(this);
