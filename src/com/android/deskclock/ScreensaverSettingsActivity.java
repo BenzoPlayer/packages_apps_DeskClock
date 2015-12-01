@@ -21,6 +21,7 @@ import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
+import android.preference.SwitchPreference;
 
 /**
  * Settings for the Alarm Clock Dream (com.android.deskclock.Screensaver).
@@ -52,7 +53,7 @@ public class ScreensaverSettingsActivity extends PreferenceActivity
             final int idx = listPref.findIndexOfValue((String) newValue);
             listPref.setSummary(listPref.getEntries()[idx]);
         } else if (KEY_NIGHT_MODE.equals(pref.getKey())) {
-            boolean state = ((CheckBoxPreference) pref).isChecked();
+            boolean state = ((SwitchPreference) pref).isChecked();
         }
         return true;
     }
@@ -63,7 +64,7 @@ public class ScreensaverSettingsActivity extends PreferenceActivity
         listPref.setOnPreferenceChangeListener(this);
 
         Preference pref = findPreference(KEY_NIGHT_MODE);
-        boolean state = ((CheckBoxPreference) pref).isChecked();
+        boolean state = ((SwitchPreference) pref).isChecked();
         pref.setOnPreferenceChangeListener(this);
     }
 
